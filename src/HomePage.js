@@ -1,10 +1,13 @@
-import React, { FC } from 'react';
+import React from 'react';
 
-const HomePage: FC = () => {
+const HomePage = () => {
     return (
-        <header className="App-header">
-            Welcome to Erica Chiu's home website.
-        </header>
+        <div>
+            <header className="App-basic">
+                Welcome to Erica Chiu's home website.
+            </header>
+        </div>
+        
     );
 };
 

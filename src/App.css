@@ -1,3 +1,5 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
 .App {
   text-align: center;
 }
@@ -7,7 +9,38 @@
   height: 40vmin;
 }
 
-.App-header {
+.header, .header-brand, .header-section {
+  background-color: #893168;
+  color: #eaeaea;
+}
+
+.dance-page {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
+.dance-heading, .dance-title {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: xx-large;
+  color: #893168;
+  font-weight: 100;
+}
+
+.dance-link:hover {
+  color: #dabfff;
+}
+
+a:hover, a:active {
+  color: #dabfff;
+}
+
+a, a:link, a:visited {
+  color: #893168;
+}
+
+.App-basic {
   background-color: white;
   min-height: 100vh;
   display: flex;
@@ -16,10 +49,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #1f2232;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {

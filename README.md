@@ -4,6 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 1. `npm install`
 2. `npm start`
 
+## Color Scheme
+#EAEAEA, #DABFFF, #893168, #596475, #1F2232
+
 ## Available Scripts
 
 In the project directory, you can run:

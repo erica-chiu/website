@@ -1,21 +1,21 @@
 import React, { Component } from 'react';
-import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import {HashRouter, Route} from 'react-router-dom';
 import DancePage from './DancePage';
 import HomePage from './HomePage';
-import logo from './logo.svg';
 import './App.css';
+import AppHeader from './AppHeader';
+
 
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
-        <div className="App">
-          <Switch>
-            <Route exact path="/dance" component={DancePage}/>
+        <HashRouter basename="/">
+          <div className="app">
+            <AppHeader/>
             <Route exact path="/" component={HomePage}/>
-          </Switch>
-        </div>
-      </BrowserRouter>
+            <Route path="/dance" component={DancePage}/>
+          </div>
+        </HashRouter>
     );
   }
 }
