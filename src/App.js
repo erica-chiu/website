@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {HashRouter, Route} from 'react-router-dom';
 import DancePage from './DancePage';
+import ProjectPage from './ProjectPage';
 import HomePage from './HomePage';
 import './App.css';
 import AppHeader from './AppHeader';
@@ -13,6 +14,7 @@ class App extends Component {
           <div className="app">
             <AppHeader/>
             <Route exact path="/" component={HomePage}/>
+            <Route path="/projects" component={ProjectPage}/>
             <Route path="/dance" component={DancePage}/>
           </div>
         </HashRouter>

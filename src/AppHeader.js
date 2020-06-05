@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import {
     Navbar,
     NavbarBrand,
@@ -14,6 +13,9 @@ const AppHeader = () => {
             <Navbar light expand="md" className="header">
                 <NavbarBrand href="#/"><div className="header-brand">Erica Chiu</div></NavbarBrand>
                 <Nav className="mr-auto" navbar>
+                    <NavItem>
+                        <NavLink href="#/projects"><div className="header-section">Projects</div></NavLink>
+                    </NavItem>
                     <NavItem>
                         <NavLink href="#/dance"><div className="header-section">Dance</div></NavLink>
                     </NavItem>
