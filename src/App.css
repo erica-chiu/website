@@ -9,18 +9,22 @@
   height: 40vmin;
 }
 
+.app {
+  color: #1f2232;
+}
+
 .header, .header-brand, .header-section {
   background-color: #893168;
   color: #eaeaea;
 }
 
-.dance-page {
+.dance-page, .home-page {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 10%;
 }
 
-.dance-heading, .dance-title {
+.dance-heading, .dance-title, .home-header {
   margin-top: 5%;
   margin-bottom: 5%;
   font-size: xx-large;
