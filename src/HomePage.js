@@ -17,8 +17,8 @@ const HomePage = () => {
 
             <p>
                 This summer, I am excited to be interning at <a href="https://nuro.ai">Nuro</a> on 
-                the Machine Learning team. Last summer, I interned at 
-                <a href="https://www.salesforce.com/products/einstein/overview/">Salesforce 
+                the Machine Learning team. Last summer, I interned 
+                at <a href="https://www.salesforce.com/products/einstein/overview/">Salesforce 
                 Einstein</a> on the Modeling Team, working on AutoML features. 
             </p>
         </div>
