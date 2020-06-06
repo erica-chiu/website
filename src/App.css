@@ -18,18 +18,28 @@
   color: #eaeaea;
 }
 
-.dance-page, .home-page {
+.home-profile {
+  margin-top: 5%;
+  max-height: 300px;
+  max-width: 60%;
+}
+
+.dance-page, .home-page, .project-page {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 10%;
 }
 
-.dance-heading, .dance-title, .home-header {
+.dance-heading, .dance-title, .home-header, .project-header, .project-title {
   margin-top: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
   font-size: xx-large;
   color: #893168;
   font-weight: 100;
+}
+
+.home-header {
+  margin-top: 2%;
 }
 
 .dance-link:hover {
