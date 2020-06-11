@@ -37,13 +37,13 @@ const projects = [
 
 function getProjectInfo(project) {
     return (
-        <div className="project">
+        <div className="project" key={project.title}>
             <h3 className="project-title">
                 {project.title}
             </h3>
-            <p className="project-description">
+            <div className="project-description">
                 {project.description}
-            </p>
+            </div>
         </div>
     );
 }
