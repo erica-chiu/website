@@ -24,13 +24,13 @@
   max-width: 60%;
 }
 
-.dance-page, .home-page, .project-page {
+.dance-page, .home-page, .project-page, .blog-page {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 10%;
 }
 
-.dance-heading, .dance-title, .home-header, .project-header, .project-title {
+.dance-heading, .dance-title, .home-header, .project-header, .project-title, .blog-header {
   margin-top: 5%;
   margin-bottom: 2%;
   font-size: xx-large;
@@ -54,7 +54,7 @@ a, a:link, a:visited {
   color: #893168;
 }
 
-.App-basic {
+.App-basic, .error-page {
   background-color: white;
   min-height: 100vh;
   display: flex;

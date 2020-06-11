@@ -19,6 +19,9 @@ const AppHeader = () => {
                     <NavItem>
                         <NavLink href="#/dance"><div className="header-section">Dance</div></NavLink>
                     </NavItem>
+                    <NavItem>
+                        <NavLink href="#/blog"><div className="header-section">Blog</div></NavLink>
+                    </NavItem>
                 </Nav>
             </Navbar>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import VideoGallery from './components/VideoGallery';
+import VideoGallery from '../components/VideoGallery';
 
 const directedVideos = [
     'DKkLxDJn0Nk',  // Never Ever (ADT Cover)
