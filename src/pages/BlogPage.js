@@ -38,7 +38,6 @@ function getBlogHome() {
 
 const BlogPage = () => {
     let { id } = useParams();
-    console.log(id);
     if (id === undefined) {
         return getBlogHome();
     } else if (id in blogDict) {
