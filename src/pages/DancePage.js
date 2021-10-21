@@ -2,6 +2,8 @@ import React from 'react';
 import VideoGallery from '../components/VideoGallery';
 
 const directedVideos = [
+    'DjG7bTw3ccc', // Complete (ADT Virtual Setlist)
+    'WQz2wN5_61Q', // Salty (ADT Virtual Setlist)
     'DKkLxDJn0Nk',  // Never Ever (ADT Cover)
     'DJyOuvt3Y0Y',  // Crazy In Love (ADT Setlist)
     'd7fpzgDNBM8',  // Journey to the West (ADT Setlist)
@@ -15,9 +17,19 @@ const directedVideos = [
 ];
 
 const performedVideos = [
+    'AXWsvTQUO5g', // Given Taken (ADT Virtual Cover)
+    'OfSYWXpHrgk', // Home Run (ADT Virtual Setlist)
+    'lj2w-Q6Rqtg', // Bad Idea (ADT Virtual Setlist)
+    'jIzHWotmmYQ', // Just One Dance (ADT Virtual Setlist)
+    'zjeeXfncb1U', // The Banquet (ADT Virtual Setlist)
+    'bfsTJ2xFDgQ', // Hwaa (ADT Virtual Cover)
+    '6CbFGyOVi84', // Can't ask you to stay (ADT Virtual Setlist)
+    'ToUluNfn0TI', // Butterflies and Violet Nights (ADT Virtual Setlist)
+    'lziFwtffIIM', // Senior Interlude (ADT Virtual Setlist)
     'ilm93lcoO_o', // Alive (Ridonkulous)
     'w-yFipFSMyM', // Winter 2020 (Ridonkulous)
     'DKkLxDJn0Nk',  // Never Ever (ADT Cover)
+    'mJ8q7n90Xr4', // Exec Interlude (ADT 2019 Fall)
     'tVd5vZAXYEA', // In the Rain (ADT Setlist)
     'iMiX9Rnie6A', // Fall 2019 (Ridonkulous)
     'yoYccjhCJCo', // No Air (ADT Setlist)
