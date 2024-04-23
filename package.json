@@ -5,7 +5,7 @@
   "homepage": "https://erica-chiu.github.io/website",
   "dependencies": {
     "bootstrap": "^4.5.0",
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^5.0.0",
     "react": "^16.8.0",
     "react-dom": "^16.13.1",
     "react-image-gallery": "^1.0.7",
