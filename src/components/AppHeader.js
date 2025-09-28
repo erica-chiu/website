@@ -10,7 +10,7 @@ import {
 const AppHeader = () => {
     return (
         <div>
-            <Navbar light expand="md" className="header">
+            <Navbar light expand="md" className="header" style={{padding: "12px"}}>
                 <NavbarBrand href="#/"><div className="header-brand">Erica Chiu</div></NavbarBrand>
                 <Nav className="mr-auto" navbar>
                     <NavItem>
